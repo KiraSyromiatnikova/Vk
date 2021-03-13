@@ -11,37 +11,12 @@ public class PostManager {
         return null;
     }
 
-    public Post[] search(int ownerID) {
+    public Post[] search(int ownerID, String domain, String query, boolean ownersOnly, int count, int offset) {
         //TODO: add logic
         return null;
     }
-
-    public Post[] search(String domain) {
-        //TODO: add logic
-        return null;
-    }
-
-    public Post[] search(String query) {
-        //TODO: add logic
-        return null;
-    }
-
-    public Post[] search(boolean ownersOnly) {
-        //TODO: add logic
-        return null;
-    }
-
-    public Post[] search(int count) {
-        //TODO: add logic
-        return null;
-    }
-
-    public Post[] search(int offset) {
-        //TODO: add logic
-        return null;
-    }
-
 
     public void delete(int postID, int ownerID) {
         //to find the post in Array and delete it
     }
+}
